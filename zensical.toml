@@ -1,13 +1,12 @@
 [project]
 
-site_name = "Tucker Island"
-site_description = "Documentation for all of Tucker Island's Discord Features"
+site_name = "Tucker Isles"
+site_description = "Documentation for all of Tucker Isles's Discord Features"
 site_author = "mat @xyb"
-#site_url = "https://www.example.com/"
+site_url = "https://love-buggedd.github.io/TuckerIsland/"
 
 repo_name = "lovebuggedd/TuckerIsland"
 repo_url = "https://github.com/love-buggedd/TuckerIsland"
-repo = "fontawesome/brands/github"
 
 copyright = "Copyright &copy; 2026 @xyb"
 
@@ -16,16 +15,31 @@ extra_javascript = ["javascripts/font-toggle.js"]
 
 nav = [
     "index.md",
-    "vefora.md",
-    "economy.md",
+    {"Server Details" = [
+        "vefora.md",
+        "economy.md",
+    ]},
     {"Court" = [
         "court/index.md",
+        "court/offenses.md",
+        "court/guide.md",
+        {"Roles" = [
+            "court/roles/judge.md",
+            "court/roles/prosecutor.md",
+            "court/roles/lawyer.md",
+            "court/roles/defendant.md",
+            "court/roles/jury.md",
+        ]},
+        "court/charges.md",
     ]}
 ]
 
 
 [project.theme]
 # variant = "classic"
+
+logo = "images/logo.png"
+favicon = "images/favicon.png"
 
 font.text = "Funnel Display"
 language = "en"
@@ -77,6 +91,8 @@ kwds = { case = "lower" }
 
 [project.extra.status]
 wip = "WIP"
+main = "Main"
+add = "Extra"
 
 [project.extra]
 generator = false

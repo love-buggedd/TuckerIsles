@@ -19,7 +19,11 @@ The server is home to a variety of fun features that have been fine-tuned to app
         For more information you can visit the tab designated for our<br/>[Court system][court].
     Court is a dynamic and fun activity that engages members of [Tucker Island][disc]. It involves a judge, jury, prosecutor<span class="transparent">(s)</span>, defendant, and lawyer<span class="transparent">(s)</span>. The activity can generally span out to length a few hours, and involes both Criminal and Civil trials according to the server's list of Criminal Charges, and Suable Offenses.
 <br/>
-!!! warning "Posted"
+!!! tip
+    All text colored [blue][example]  is a link and can be clicked on!
+[example]: ./8000/404.md
+
+!!! warning "Post Date"
     All information is up to date as of <b>2026-02-23</b><sub>(ISO 8601)</sub>
 
 <!-- Reference-Style Links -->

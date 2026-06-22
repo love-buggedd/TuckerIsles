@@ -10,7 +10,7 @@ icon: lucide/bot
 ??? question "Common Q&A"
     <b>Q:</b> <i>Why can't I use some commands that Vefora has?</i>
     <br/>
-    <b>A:</b> Not all commands/information is accessible to the general public. If you'd like to request specific information that you cannot access as a regular user please contact <span class="mention">@xyb</span> to submit the data-request.
+    <b>A:</b> Not all commands/information is accessible to the general public. If you'd like to request specific information that you cannot access as a regular user please contact <span class="mention">@xyb</span> to submit a data-request.
     
     <b>Q:</b> <i>Am I allowed to privately request data in court?</i>
     <br/>
@@ -20,7 +20,7 @@ icon: lucide/bot
 Vefora has a variety of functions.
 
 ### Tracked Data
-<span class="transparent"><i>Note: This only includes publically available data, and not what moderators can see.</i></span>
+<span class="transparent"><i>Note: This only includes publically available data, and not what moderators can see.<br/>To see how many times someone has had a user-created rule enforced on them, you must submit a data request.</i></span>
 === ":lucide-users-round: User Tracked Data"
     | <b>Data Name</b>    | <b>Data Type</b> |
     |---------------------|-----------------:|
@@ -34,7 +34,6 @@ Vefora has a variety of functions.
     | License Suspensions |            `int` |
     | Dunces              |            `int` |
     | Ordered Nicknames   |            `int` |
-    | Clown Kidnappings   |            `int` |
 === ":lucide-server: Server Tracked Data"
     |   <b>Data Name</b>  | <b>Data Type</b> |
     |---------------------|-----------------:|
@@ -52,7 +51,6 @@ Vefora has a variety of functions.
     | License Suspensions |       `int`      |
     | Dunces              |       `int`      |
     | Ordered Nicknames   |       `int`      |
-    | Clown Kidnappings   |       `int`      |
 
 ### Commands
 
@@ -61,8 +59,8 @@ Vefora has a variety of functions.
 /info <server | user> <@user>
 ```
 
-- `<server | user>` - <span class="transparent">Choose between viewing server information and user-specific information.</span>
-- `<@user>` - <span class="transparent">Only accessible if `user` is chosen for the first argument. Specifies which user you want to inspect.</span>
+* `<server | user>` - <span class="transparent">Choose between viewing server information and user-specific information.</span>
+* `<@user>` - <span class="transparent">Only accessible if `user` is chosen for the first argument. Specifies which user you want to inspect.</span>
 
 !!! bug "Vefora Disclaimer"
     This bot is still under development at the moment. Please refer to the [manual logs][logs] that <span class="mention">@xyb</span> has provided.
@@ -70,4 +68,4 @@ Vefora has a variety of functions.
     Thank you!
 <!-- Reference-Style Links -->
 [disc]: https://discord.gg/UPQwaM3HsJ
-[logs]: https://docs.google.com/spreadsheets/d/1MWMWmnFSWyMHuTw040OLp5K5FXwgz5jpAqs19EjJUGQ/edit?usp=sharing
+[logs]: https://docs.google.com/document/d/1BJVvyJWaeHCCz-Onfc8wGJ1V6fLLX-dtQSwxb7xWbQY/edit?tab=t.m050onyazd
